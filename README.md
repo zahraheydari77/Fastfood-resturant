@@ -1,4 +1,4 @@
-this is a fast food site, which i built it with react liblery a json-server api.
+this is a fast food site, which i built it with react liblery and json-server api.
 if(you have any questions){
 reach me via my email zmh779971@gmail.com
 }
