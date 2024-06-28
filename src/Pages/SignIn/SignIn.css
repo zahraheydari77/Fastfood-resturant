@@ -1,0 +1,103 @@
+.container_navbar {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+}
+
+.main-nav{
+margin-top: 1rem;
+}
+
+.form__container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8rem;
+  min-width: 500px;
+    height: 700px;
+    background-color:var(--color_fff6a3);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.title__section {
+    position: absolute;
+    margin-top:-32rem;
+    margin-bottom: 2.5rem;
+    font-size: 20px;
+    text-align: right;
+    font-weight: 500;
+    color: var(--color_323232);
+    border: 2px solid red;
+    padding: 1rem;
+    border-radius: 20px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.login_form{
+    margin-top: -3rem;
+}
+
+.login-form_username{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+.login-form_email{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 1rem;  
+}
+.login-form_phone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 1rem;  
+}
+.login-form_password{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 1rem;  
+}
+.btn-2{
+    max-width: 200px;
+    margin-left: 5rem;
+      margin-top:2.5rem;
+      margin-bottom: -9rem;
+      font-size: 20px;
+      text-align: center;
+      font-weight:800;
+      color: #fff;
+      border: none;
+      padding: 1rem;
+      border-radius: 20px;
+      -webkit-border-radius: 40px;
+      -moz-border-radius: 40px;
+      -ms-border-radius: 40px;
+      -o-border-radius: 40px;
+}
+.btn_success{
+    background-color: var(--color_ffc300);
+}
+.btn_error{
+    background-color:var(  --color_C90000);
+}
+.p-tag-2{
+    font-size: 17px;
+    position: absolute;
+    margin-top: 29rem;
+margin-left: 6rem;
+color: var(--color_323232);
+}

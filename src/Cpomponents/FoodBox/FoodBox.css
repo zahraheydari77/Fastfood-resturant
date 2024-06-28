@@ -1,0 +1,106 @@
+.row_grid_food_product {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 30px;
+    justify-content: center;
+}
+
+.item_food_grid {
+    margin-bottom: 2rem;
+    position: relative;
+    border: 1px solid var(--color_e3e3e3);
+    padding: 1rem;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.img_item_food_grid {
+    position: relative;
+}
+
+.img_item_food_grid img {
+    max-width: 227px;
+    max-height: 170px;
+    margin-left: 15%;
+    object-fit: contain;
+}
+
+.img_item_food_grid div {
+    position: absolute;
+    height: 105px;
+    background-color: var(--color_fffde6);
+    border-radius: 12px;
+    bottom: 12px;
+    z-index: -1;
+    width: 100%;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.info_item_food_grid {
+    margin-top: 18px;
+    text-align: right;
+
+}
+
+.info_item_food_grid h5 {
+    font-size: 18px;
+    color: var(--color_323232);
+    font-weight: 600;
+}
+
+.info_item_food_grid p {
+    font-size: 14px;
+    color: var(--color_504f4f);
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.score_item_food_grid {
+    margin: 12px 0 20px 0;
+
+}
+.course-box__star{
+color: var(--color_ffc300);
+font-size: 20px;
+}
+
+.bottom_item_food_grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom_item_food_grid span {
+    color: var(--color_323232);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.del-tag {
+    color: var(--color_323232);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bottom_item_food_grid button {
+    background-color: var(--color_C90000);
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.Badge_Discount {
+    width: 48px;
+    position: absolute;
+}

@@ -1,0 +1,36 @@
+
+.main-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 1rem 0;
+    border-bottom: 2px solid var(--color_rgb_241);
+    margin-bottom: 1rem;
+}
+.main-part span{
+    font-size: 20px;
+    font-weight:700;
+    color: var(--color_323232);
+    margin-right: 2rem;
+}
+.shopping-image{
+    max-width: 120px;
+    max-height: 100px;
+}
+.remove{
+    border: none;
+    padding: 1.2rem;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid var(--color_ffc300);
+    color: var(--color_C90000);
+    font-weight: 700;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.remove:hover{
+    background-color: var(--color_ffc300);
+}

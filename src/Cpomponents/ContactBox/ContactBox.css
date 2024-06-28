@@ -1,0 +1,30 @@
+.boxContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    padding: 3rem;
+    gap: 2rem;
+}
+.contact-box{
+    min-height: 200px;
+    background-color: var(--color_fffde6);
+    padding: 1.4rem;
+    text-align: center;
+    border: 1px solid var(--color_C90000);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.contact-icon{
+    color:var(  --color_C90000) ;
+    font-size: 40px;
+}
+.contact-h2{
+    font-size: 20px;
+    color: var(--color_323232);
+}
+.contact-p-tag{
+    color: var(--color_504f4f);
+    font-size: 15px;
+}

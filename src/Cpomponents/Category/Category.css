@@ -1,0 +1,37 @@
+.row_button_category{
+    display: grid;
+    grid-auto-columns: 178px;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    column-gap: 20px;
+    margin-top: 32px;
+    }
+    .row_button_category button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 8px;
+        border: 1p solid var(--color_323232);
+        background-color: var(--color_f1f1f1);
+        color: var(--color_504f4f);
+        font-size: 16px;
+        font-weight: 400;
+        padding: 14px 20px;
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+    }
+    .button_active_category{
+    background-color: var(--color_ffc300) !important;
+    counter-reset: var(--color_323232) !important;
+    font-weight: 500 !important;
+    }
+    .icon{
+        transform: scale(1.4);
+        -webkit-transform: scale(1.4);
+        -moz-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        -o-transform: scale(1.4);
+}

@@ -1,0 +1,206 @@
+.container_site {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+}
+
+.main-header{
+margin-top: 1rem;
+}
+.header_bottom{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.content_right_header_bottom{
+align-self: center;
+width: 86%;
+}
+.desktop{
+    height: 500px;
+    width: 500px;
+}
+.content_left_header_bottom{
+position: relative;
+}
+
+.content_right_header_bottom h1{
+    text-align: right;
+    color: var(--color_C90000);
+    font-size:48px ;
+    font-weight:600;
+    line-height: 90px; ;
+
+}
+.content_right_header_bottom p{
+    color: var(--color_504f4f);
+    font-size: 16px;
+    font-weight:400 ;
+    line-height: 30px;
+    text-align: right;
+    margin-top: 1.5rem;
+
+}
+
+.order_food{
+    margin-top: 3rem;
+    text-align: right;
+}
+.total_price{
+    color: var(--color_323232);
+    margin-bottom: 1rem;
+}
+.total_price span:first-child{
+   font-size: 16px;
+   font-weight: 300;
+}
+.total_price span:last-child{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.action_order{
+   display: flex;
+
+   justify-content: flex-end;
+   gap: 1.5rem;
+}
+.button_action_order{
+    max-width: 41%;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color_rgb_241);
+    background-color: var(--color_fff);
+    border-radius: 100px;
+    padding: 8px 16px;
+    box-shadow: 0 10px 17px 0 var(--color_rgb_122_144_176);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+.button_action_order button{
+  
+    background-color: transparent;
+    border: none;
+}
+.button_action_order span{
+ color:var(--color_ffc300) ;
+    font-size: 20px;
+    font-weight: 500;
+}
+.button_action_order span::after,.button_action_order span::before{
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 22px;
+    background-color: var(--color_rgb_241);
+     
+}
+.button_action_order span::after{
+    margin-left: 12px;   
+}
+.button_action_order span::before{
+    margin-right: 12px;   
+}
+
+.order_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color_ffc300);
+    box-shadow: 0 20px 20px 0 var(--color_rgb_241);
+    border: none;
+    border-radius: 100px;
+    padding: 9px 16px;
+    color: var(--color_323232);
+    font-size: 20px;
+    font-weight:500;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+.order_btn svg{
+    margin-right: 5px;
+    margin-top: -3px;
+}
+@media (max-width:1042px){
+.action_order{
+    max-width: 100%;
+}
+}
+@media (max-width:882px){
+  .header_bottom{
+    margin-top: 2rem;
+  }
+
+    }
+
+    @media (max-width:834px){
+     .content_right_header_bottom h1{
+        font-size: 30px;
+        line-height: 50px;
+     }
+     .order_food{
+        margin-top: 2rem;
+     }
+     .button_action_order{
+        max-width:54%;
+        padding: 5px 10px;
+        gap: 2px;
+     }
+     .order_btn{
+        padding: 16px;
+        font-size: 14px;
+     }
+
+    }
+    @media (max-width:676px){
+     .header_bottom{
+        grid-template-columns: repeat(1,1fr);
+     }
+     .content_right_header_bottom{
+       width: 100%;
+        text-align: center;
+     }
+     .content_right_header_bottom h1{
+        text-align: center;
+     }
+     .content_right_header_bottom p{
+        max-width: 100%;
+        text-align: center;
+        margin: 1.5rem 0;
+     }
+     .desktop{
+        display: none;
+     }
+     .fixed_box_delivery{
+        top: 7.5rem;
+        left: 20rem;
+      
+     }
+     .order_food{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     .mobile{
+        margin-top: 1rem;
+     }
+     .order_btn{
+        padding: 9px;
+        font-size: 14px;
+     }
+     
+    }
+        
+    @media (min-width:677px){
+
+      
+        .mobile{
+           display: none;
+        }
+        
+       }

@@ -1,0 +1,275 @@
+{
+  "foods": [
+    {
+      "id": "1",
+      "category": "فست فود",
+      "img": "./img/2.png",
+      "title": "همبرگر پنیری بیف",
+      "desc": "تهیه شده با گوشت گاو",
+      "score":3,
+      "price": 120000,
+      "off": "0"
+    },
+    {
+      "id": "2",
+      "category": "فست فود",
+      "img": "./img/3.png",
+      "title": "ناگت مرغ",
+      "desc": "به همراه سیب زمینی سرخ شده",
+      "score": 4,
+      "price": 77000,
+      "off": "1"
+    },
+    {
+      "id": "3",
+      "category": "فست فود",
+      "img": "./img/4.png",
+      "title": "مرغ سوخاری",
+      "desc": "به همراه سس تند مخصوص",
+      "score": 4,
+      "price": 155000,
+      "off": "0"
+    },
+    {
+      "id": "5",
+      "category": "سالاد",
+      "img": "./img/5.png",
+      "title": "سالاد مخصوص",
+      "desc": "به همراه تکه های مرغ",
+      "score": 3,
+      "price": 63000,
+      "off": "1"
+    },
+    {
+      "id": "6",
+      "category": "نوشیدنی",
+      "img": "./img/8.png",
+      "title": "کوکتل مخصوص",
+      "desc": "دستور مخصوص",
+      "score": 5,
+      "price": 33000,
+      "off": "0"
+    },
+    {
+      "id": "7",
+      "category": "فست فود",
+      "img": "./img/6.png",
+      "title": "همبرگر مرغ",
+      "desc": "تهیه شده از گوشت مرغ",
+      "score": 4,
+      "price": 77700,
+      "off": "1"
+    },
+    {
+      "id": "8",
+      "category": "دسر",
+      "img": "./img/9.png",
+      "title": "کیک شکلاتی",
+      "desc": "تشکیل شده از لایه های اسفنجی شکلاتی",
+      "score": 4,
+      "price": 90000,
+      "off": "0"
+    },
+    {
+      "id": "9",
+      "category": "نوشیدنی",
+      "img": "./img/10.png",
+      "title": "معجون ",
+      "desc": "دارای مواد مغذی مانند پسته و گردو",
+      "score": 3,
+      "price": 100000,
+      "off": "0"
+    },
+    {
+      "id": "10",
+      "category": "فست فود",
+      "img": "./img/11.png",
+      "title": "همبرگر گوشت و مرغ ",
+      "desc": "به همراه پنیر و سس مخصوص",
+      "score": 5,
+      "price": 200000,
+      "off": "0"
+    },
+    {
+      "id": "11",
+      "category": "نوشیدنی",
+      "img": "./img/12.png",
+      "title": "شیر توت فرنگی",
+      "desc": "به همراه توت فرنگی و خامه مخصوص",
+      "score": 4,
+      "price": 990000,
+      "off": "0"
+    },
+    {
+      "id": "12",
+      "category": "فست فود",
+      "img": "./img/13.png",
+      "title": "استیک گوشت",
+      "desc": "به همراه سس مستر فود",
+      "score": 5,
+      "price": 330000,
+      "off": "0"
+    },
+    {
+      "id": "13",
+      "category": "دسر",
+      "img": "./img/15.png",
+      "title": "دسر شکلاتی",
+      "desc": "دارای توت فرنگی و سس شکلاتی ",
+      "score": 3,
+      "price": 33000,
+      "off": "0"
+    },
+    {
+      "id": "14",
+      "category": "دسر",
+      "img": "./img/16.png",
+      "title": "دسر فرانسوی",
+      "desc": "با طعم کارامل",
+      "score":2,
+      "price": 98000,
+      "off": "0"
+    },
+    {
+      "id": "15",
+      "category": "سالاد",
+      "img": "./img/17.png",
+      "title": "سالاد ماکارانی",
+      "desc": "تهیه شده از سس فرانسوی ",
+      "score": 5,
+      "price": 80000,
+      "off": "0"
+    },
+    {
+      "id": "16",
+      "category": "سالاد",
+      "img": "./img/19.png",
+      "title": "سالاد ایتالیایی",
+      "desc": "تهیه شده از سس ایتالیایی ",
+      "score":5,
+      "price": 82000,
+      "off": "0"
+    },
+    {
+      "id": "17",
+      "category": "نوشیدنی",
+      "img": "./img/20.png",
+      "title": "لیموناد ",
+      "desc": "تهیه شده از لیمو تازه",
+      "score": 5,
+      "price": 18000,
+      "off": "0"
+    },
+    {
+      "id": "18",
+      "category": "نوشیدنی",
+      "img": "./img/21.png",
+      "title": "نوشابه کوکاکولا ",
+      "desc": "با بسته بندی قوطی",
+      "score": 4,
+      "price": 18000,
+      "off": "0"
+    }
+  ],
+  "users": [
+    {
+      "id": "0",
+      "name": "Zahra Heydari",
+      "email": "zahra@gmail.com",
+      "phone": "09123456786",
+      "password": "12345678"
+    },
+    {
+      "id": "b825",
+      "name": "Fatemeh-Moradi",
+      "email": "fatemeh@gmail.com",
+      "phone": "09324567543",
+      "password": "12345678"
+    },
+    {
+      "id": "3126",
+      "name": "Mahgol-Hemmati",
+      "email": "mahgol@gmail.com",
+      "phone": "09334304141",
+      "password": "12345678"
+    },
+    {
+      "id": "3659",
+      "name": "Mahgol-Hemmati",
+      "email": "mahgol@gmail.com",
+      "phone": "09334304141",
+      "password": "12345678"
+    },
+    {
+      "id": "c6dc",
+      "name": "Morteza-Hemmati",
+      "email": "morteza@gmail.com",
+      "phone": "09197654321",
+      "password": "12345678"
+    },
+    {
+      "id": "c3d2",
+      "name": "sara-mina",
+      "email": "sara@gmail.com",
+      "phone": "09123456788",
+      "password": "12345677"
+    },
+    {
+      "id": "8ef5",
+      "name": "یسبلااتتت",
+      "email": "zmh779971@gmail.com",
+      "phone": "09887767777",
+      "password": "9009090000"
+    },
+    {
+      "id": "1d8b",
+      "name": "cdcdcddd",
+      "email": "zmh779971@gmail.com",
+      "phone": "09332456767",
+      "password": "uuhdhfdhvhfd"
+    }
+  ],
+  "msg": [
+    {
+      "id": "1",
+      "username": "Zahra",
+      "email": "zmh@gmail.com",
+      "msg": "ممنون از خدمات شما"
+    },
+    {
+      "id": "a562",
+      "username": "zahra",
+      "email": "salam",
+      "msg": "غذا عالی بود ممنون"
+    }
+  ],
+  "offs":[
+    {
+      "id":"1",
+      "category":"فست فود",
+      "title":"ناگت مرغ",
+      "desc":" یک کوکاکولا جایزه بگیرید",
+      "oldPrice":"110000",
+      "newPrice":"77000",
+      "img":"./img/3.png"
+    },
+    {
+      "id":"2",
+      "category":"سالاد",
+      "title":" سالاد مخصوص",
+      "desc":"به همراه تکه های مرغ",
+      "oldPrice":"90000",
+      "newPrice":"63000",
+      "img":"./img/5.png"
+    },
+    {
+      "id":"3",
+      "category":"فست فود",
+      "title":"همبرگر مرغ",
+      "desc":"یک همبرگر بخر دوتا تحویل بگیر ",
+      "oldPrice":"111000",
+      "newPrice":"77700",
+      "img":"./img/6.png"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+}
+
+.main-nav{
+margin-top: 1rem;
+}
+.container_site{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+}
+.row_title_section_food h4{
+    position: relative;
+    margin-top: 3rem;
+    color:var(--color_C90000) ;
+    font-size: 35px;
+    font-weight: 600;
+    right: 12.5%;
+    text-align: right ;
+}
+
+
+
+.see_all{
+    margin: 1.5rem 0 3rem 0;
+    text-align: center;
+}
+.see_all a{
+   color: var(--color_504f4f);
+   font-size: 20px;
+   font-weight: 500;
+   text-decoration: underline;
+}
+@media (max-width:834px){
+    .section_food{
+        margin-top: 3rem;
+    }
+}
+
+/* 
+@media (max-width:834px){
+    .row_grid_food_product{
+        grid-template-columns: repeat(2,48%);
+    }
+}
+@media (max-width:500px){
+    .row_grid_food_product{
+        grid-template-columns: repeat(1,100%);
+    }
+}  */
+
+/* shopping cart */
+
+.h1-name{
+    margin-top: 4rem;
+    text-align: center;
+    color: var(--color_C90000);
+}
+.shoppingCart-title-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    padding: 0 0 2rem 1rem;
+    border-bottom: 1px solid var(--color_C90000);
+}
+.shoppingCart-title-container h3{
+    color: var(--color_323232);
+    font-size: 25px;
+}
+.total-price-part{
+    display: flex;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.total-price-part span{
+    font-size: 25px;
+    font-weight:700;
+    color: var(--color_323232);
+}
+.total-price-part h2{
+    color: var(--color_C90000);
+}
+.total-btn{
+    border: none;
+    background-color:var(--color_ffc300);
+    color: var(--color_504f4f);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1.2rem;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.total-btn:hover{
+    border: 2px solid var(--color_504f4f);
+}

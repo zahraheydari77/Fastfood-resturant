@@ -1,0 +1,9 @@
+@font-face{
+    font-family: Nastaliq;
+    src: url(../src/Fonts/iran/IranNastaliq.ttf);
+}
+
+@font-face {
+    font-family: IRANSans;
+    src: url(../src/Fonts/IRANSans/IRANSans.ttf);
+}

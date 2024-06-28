@@ -1,0 +1,37 @@
+:root{
+    --color_C90000: #C90000;
+    --color_7D7C7C: #7D7C7C;
+--color_504f4f:#504f4f;
+--color_323232:#323232;
+--color_ffc300:#ffc300;
+--color_fff6a3:#fff6a3;
+--color_fffde6:#fffde6;
+
+--color_e3e3e3:#e3e3e3;
+--color_f1f1f1:#f1f1f1;
+--color_rgb_112:rgba(112,144,176,0.20);
+--color_rgb_241:rgba(241,241,241,0.70);
+}
+.text_danger{
+    color: var(--color_C90000);
+}
+.text_gray{
+    color: var(--color_7D7C7C);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: IRANSans;
+ 
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
