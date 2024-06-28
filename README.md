@@ -1,8 +1,8 @@
-- 👋 Hi, I’m Zahra Heydari
-- 👀 I’m interested in programing
-- 🌱 I’m currently learning react-js 
-- 💞️ I’m looking to collaborate on react & wordpress projects
-- 📫 you can reach me via my email zmh779971@gmail.com
+this is a fast food site, which i built it with react liblery a json-server api.
+if(you have any questions){
+reach me via my email zmh779971@gmail.com
+}
+
 
 
 <!---
