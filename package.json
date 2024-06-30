@@ -1,5 +1,5 @@
 {
-  "homepage":"https://zahraheydari77.github.io/Fastfood-resturant",
+  "homepage": "https://zahraheydari77.github.io/Fastfood-resturant",
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
@@ -21,7 +21,7 @@
     "react-icons": "^5.2.1",
     "react-router-dom": "^6.23.1",
     "react-toastify": "^10.0.5",
-    "sweetalert2": "^11.11.1"
+    "sweetalert2": "^11.6.13"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
