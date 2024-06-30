@@ -46,7 +46,7 @@ const navigate = useNavigate()
       password: formState.inputs.password.value
     };
 
-    fetch('http://localhost:3000/users',{
+    fetch('https://fastfood-resturant.vercel.app/users',{
       method:'POST',
       headers:{
         "Content-Type" : 'application/json'

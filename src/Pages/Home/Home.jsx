@@ -11,7 +11,7 @@ export default function Home() {
   const [offs, setOffs] = useState([])
 
   useEffect(() => {
-    fetch('http://localhost:3000/offs')
+    fetch('https://fastfood-resturant.vercel.app/offs')
       .then(res => res.json())
       .then(
         data => {

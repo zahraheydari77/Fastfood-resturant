@@ -38,7 +38,7 @@ export default function Contact() {
       msg:formState.inputs.msg.value
     }
 
-    fetch('http://localhost:3000/msg', {
+    fetch('https://fastfood-resturant.vercel.app/msg', {
       method: 'POST',
       headers: {
         "Content-Type": 'application/json'
