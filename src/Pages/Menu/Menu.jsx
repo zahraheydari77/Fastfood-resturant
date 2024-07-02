@@ -26,7 +26,7 @@ export default function Menu() {
   }, [shoppingCart]);
 
   function getAllFoods() {
-    fetch("https://fastfood-resturant.vercel.app/foods")
+    fetch("https://fastfood-resturant-12wn.vercel.app/foods")
       .then((res) => res.json())
       .then((data) => {
         setAllmenu(data);

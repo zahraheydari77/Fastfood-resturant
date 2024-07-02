@@ -11,7 +11,7 @@ export default function Home() {
   const [offs, setOffs] = useState([])
 
   useEffect(() => {
-    fetch('https://fastfood-resturant.vercel.app/offs')
+    fetch('https://fastfood-resturant-12wn.vercel.app/offs')
       .then(res => res.json())
       .then(
         data => {
